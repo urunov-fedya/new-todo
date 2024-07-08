@@ -1,0 +1,7 @@
+@import './reset.scss';
+
+#root {
+  overflow: hidden;
+  height: 100dvh;
+  min-height: -webkit-fill-available;
+}

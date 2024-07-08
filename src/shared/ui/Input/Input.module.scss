@@ -1,0 +1,29 @@
+.input {
+  padding: 7px 10px;
+  border-radius: 4px;
+  border: 1px solid #EFEFEF;
+  
+  &outline {
+    border: none;
+  }
+  
+  &__default {
+    border-color: #EFEFEF;
+  }
+
+  &::placeholder {
+    border-color: #0070f3;
+  }
+}
+
+.outline {
+  outline: none;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid #EFEFEF;
+
+  &::placeholder {
+    color: #C7C7C7;
+  }
+  border: none;
+}
